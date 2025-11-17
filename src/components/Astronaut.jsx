@@ -19,7 +19,7 @@ export function Astronaut(props) {
   useFrame(()=>{group.current.position.y= ySpring.get()});
 
   return (
-    <group ref={group} {...props} dispose={null} rotation={[-Math.PI / 2, -0.2, 2.2]} scale={props.scale || 0.2} position={props.position || [2.3,-10,0]}>
+    <group ref={group} {...props} dispose={null} rotation={[-Math.PI / 2, -0.2, 2.2]} scale={props.scale || 0.2} position={props.position || [2.3,0,0]}>
       <group name="Sketchfab_Scene">
         <group name="Sketchfab_model">
           <group name="Root">
