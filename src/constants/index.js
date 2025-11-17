@@ -9,11 +9,11 @@ export const myProjects = [
     subDescription: [
     "Developed a robust backend using Django views, models, and templates for seamless event creation and management.",
     "Implemented CRUD operations with proper form handling, validations, and clean UI flow.",
-    "Integrated a local database to store events and optimized queries for faster loading.",
+    "Integrated the local storage to store events and optimized queries for faster loading.",
     "Designed a responsive interface using Bootstrap for smooth user experience across devices.",
     
   ],
-    href: "",
+    href: "https://event-discovery-production-fcff.up.railway.app/",
     logo: "",
     image: "/assets/projects/event-discovery.jpg",
     tags: [
@@ -50,7 +50,7 @@ export const myProjects = [
     "Integrated image upload functionality and ensured smooth media handling in the frontend.",
     "Designed a clean, responsive UI using Tailwind CSS to enhance readability and user engagement.",
     ],
-    href: "",
+    href: "https://mega-blog-one-gamma.vercel.app/",
     logo: "",
     image: "/assets/projects/redux-blog.jpg",
     tags: [
